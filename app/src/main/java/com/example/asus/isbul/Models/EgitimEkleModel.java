@@ -1,0 +1,21 @@
+package com.example.asus.isbul.Models;
+
+public class EgitimEkleModel{
+	private String text;
+
+	public void setText(String text){
+		this.text = text;
+	}
+
+	public String getText(){
+		return text;
+	}
+
+	@Override
+ 	public String toString(){
+		return 
+			"EgitimEkleModel{" + 
+			"text = '" + text + '\'' + 
+			"}";
+		}
+}
